@@ -7,7 +7,7 @@ body {
 /* Header */
 header {
   height: 90px;
-  background: #2593d3 url(../img/pattern.png) top right;
+  background: #4ea0ff url(../img/pattern.png) top right;
   background-size: 460px 180px;
 }
 header img {
@@ -18,11 +18,12 @@ header img {
 /* Main */
 main {
   padding-left: 5px;
+  padding-right: 5px;
 }
 
 /* Title */
 h1 {
-  font-weight: 600;
+  font-weight: bold;
   font-size: 40px;
   margin-bottom: 0;
 }
@@ -31,10 +32,10 @@ h1 {
 #caption {
   color: gray;
   margin-top: 0px;
-  font-weight: 600;
+  font-weight: 500;
 }
 #bluetext {
-  color: #2593d3;
+  color: #20a9e5;
 }
 
 /* Photosection */
@@ -65,9 +66,34 @@ table {
 tr th {
   text-align: left;
   min-width: 250px;
-  background-color: #2593d3;
+  background-color: #20a9e5;
   color: white;
 }
 .bluerow {
-  background-color: aquamarine;
+  background-color: #b1e5f2;
+}
+
+/* Footer */
+#moreinfo {
+  color: gray;
+  font-weight: 500;
+}
+
+.whitetext {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 15px;
+}
+#bgimg1 {
+  background-image: url(../img/monitor.jpg);
+  width: 240px;
+  height: 200px;
+  background-size: contain;
+}
+#bgimg2 {
+  background-image: url(../img/graph.jpg);
+  width: 240px;
+  height: 200px;
+  background-size: contain;
 }
